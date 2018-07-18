@@ -1,9 +1,5 @@
-Aerial by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-
-
-This is Aerial, a single page, single screen responsive site template. Real simple.
+#Personal Website
+A single page, single screen responsive site template. Real simple.
 Makes heavy use of CSS animation (something I've been messing with a lot lately).
 Should work well as a landing page that just directs folks to your stuff elsewhere
 on the www. Sass sources are also included, so if you've never used Sass and you're
@@ -12,20 +8,13 @@ safely delete the "sass/" folder).
 
 The scrolling mountainous background was derived from "Icefields" by Ryan Schroeder,
 a talented photographer from Vancouver who graciously released it on Unsplash under
-the CC0 license. Be sure to check out his other stuff over at flickr (link below)
-as well as all the other kickass CC0-licensed images at Unsplash (unsplash.com).
+the CC0 license.
 
-Questions/comments/issues = just email or find me on Twitter. Have fun!
+##The Scrolling Background:
 
-AJ
-aj@lkn.io | @ajlkn
-
-
-The Scrolling Background:
-
-	This relies entirely on CSS to do its thing, which is cool, but that makes
-	changing it a bit weird/tricky at first. You can still use pretty much any image
-	you want, but for best results make sure yours is:
+This relies entirely on CSS to do its thing, which is cool, but that makes
+changing it a bit weird/tricky at first. You can still use pretty much any image
+you want, but for best results make sure yours is:
 
 	- Horizontally tileable.
 	- Wide and short.
@@ -33,9 +22,9 @@ The Scrolling Background:
 	- Fades to a solid color either at the top of bottom (which is used to fill
 	  the empty space above or below your image).
 
-	Now, there are two ways to use it: with CSS, or with Sass:
+Now, there are two ways to use it: with CSS, or with Sass:
 
-	CSS:
+	###CSS:
 
 		Look for this line in css/style.css (line 108 as of this writing):
 
@@ -44,25 +33,18 @@ The Scrolling Background:
 		and use it to set the page background color, URL, and placement of
 		your image. It should be as close to 1500px wide as you can get it.
 
-	Sass:
+	###Sass:
 
 		Set the value of $bg to the page background color, URL, and placement
 		of your image. Change $bg-width if your image is something other than
 		1500px wide.
 
 
-Credits:
+##Credits:
 
-	Background Image:
+	###Background Image:
 		Ryan Schroeder via Unsplash (unsplash.com - CC0 licensed)
 			"Icefields" (flickr.com/photos/ryanschroeder/11876741703)
 
-	Icons:
+	###Icons:
 		Font Awesome (fortawesome.github.com/Font-Awesome)
-
-	Other:
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 PIE (css3pie.com)
-		Sass (sass-lang.com)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
